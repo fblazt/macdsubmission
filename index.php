@@ -32,7 +32,7 @@
     $db = "dicodingsubmission";
 
 try {
-    $conn = new PDO("sqlsrv:server = tcp:dicodingsubmission.database.windows.net,1433; Database = dicodingsubmission", "fblazt", "{your_password_here}");
+    $conn = new PDO("sqlsrv:server = tcp:dicodingsubmission.database.windows.net,1433; Database = dicodingsubmission", "fblazt", "macdPractic3");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
